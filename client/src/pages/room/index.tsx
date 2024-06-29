@@ -1,6 +1,5 @@
 import {
     OwnCapability,
-    useCall,
     useCallStateHooks,
     useRequestPermission,
   } from "@stream-io/video-react-sdk";
