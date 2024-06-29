@@ -10,7 +10,6 @@
   ],
   "compilerOptions": {
     // other options
-    "noUnusedLocals": false,
-    "noUnusedParameters": false
+    "noUnusedLocals": false
   }
 }
