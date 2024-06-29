@@ -39,7 +39,7 @@ export const SignIn = () => {
   const onSubmit: SubmitHandler<FormValues> = async (data) => {
     const { username, name } = data;
 
-    const response = await fetch("http://localhost:3001/auth/createUser", {
+    const response = await fetch("https://audioroom-1.onrender.com/auth/createUser", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
