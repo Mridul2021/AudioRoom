@@ -1,14 +1,11 @@
 import {
-    Call,
     OwnCapability,
-    StreamCall,
     useCall,
     useCallStateHooks,
     useRequestPermission,
   } from "@stream-io/video-react-sdk";
   import { Participants } from "./particiants";
   import { Controls } from "./controls";
-  import { useLocation } from "react-router-dom";
   import { useUser } from "../../user-context";
   import { PermissionRequestsPanel } from "./permission-request";
   
@@ -17,10 +14,8 @@ import {
       useCallCustomData,
       useParticipants,
       useCallCreatedBy,
-      useHasPermissions,
     } = useCallStateHooks();
     const { user } = useUser();
-    const call = useCall();
     const custom = useCallCustomData();
     const participants = useParticipants();
     const createdBy = useCallCreatedBy();

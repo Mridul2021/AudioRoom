@@ -4,7 +4,6 @@ import {
   Route,
   BrowserRouter as Router,
   Routes,
-  useNavigate,
 } from "react-router-dom";
 import Home from "./pages/main";
 import { SignIn } from "./pages/sign-in";
